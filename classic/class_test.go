@@ -11,8 +11,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	jamf "github.com/DataDog/jamf-api-client-go/classic"
 	"github.com/stretchr/testify/assert"
+	jamf "github.com/unravelin/jamf-api-client-go/classic"
 )
 
 var CLASS_API_BASE_ENDPOINT = "/JSSResource/classes"

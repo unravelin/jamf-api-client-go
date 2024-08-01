@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	jamf "github.com/DataDog/jamf-api-client-go/classic"
 	"github.com/stretchr/testify/assert"
+	jamf "github.com/unravelin/jamf-api-client-go/classic"
 )
 
 type MockResponse struct {
